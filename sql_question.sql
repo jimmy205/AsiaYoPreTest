@@ -37,7 +37,7 @@ Order By order_count DESC,p.id DESC;
 
 --- 調整資料表
 -- 1. 視情況設定property room order的FK 來確保資料的正確性
--- 2. order.created_at 或 order.created_at+order.id 加上index (時間區間查詢應該很常使用到)
+-- 2. order.created_at 加上index (時間區間查詢應該很常使用到)
 -- 3. 將 property.id 加入 order table
 -- 4. 考慮加上 deleted_at 可進行軟刪除
 

@@ -20,8 +20,7 @@ response {
 ```
 go run .
 
-可帶入port號參數 : PORT (未代入預設8000)
-ex: PORT=8000 go run .
+可帶入port號參數: PORT (預設8000) ex: PORT=8000 go run .
 ```
 
 #### 資料夾結構
