@@ -23,6 +23,11 @@ go run .
 可帶入port號參數: PORT (預設8000) ex: PORT=8000 go run .
 ```
 
+#### 測試啟動方式
+```
+go test business/currencyBin/* -v
+```
+
 #### 資料夾結構
 
 ##### router
